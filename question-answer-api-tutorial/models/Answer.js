@@ -6,7 +6,7 @@ const Schema = mongoose.Schema;
 const AnswerSchema = new Schema({
     content : {
         type : String,
-        required: [true,"Please provide a conten"],
+        required: [true,"Please provide a content"],
         minlenght : [10,"Please provide a content at least 10 characters"]
     },
     createdAt : {
